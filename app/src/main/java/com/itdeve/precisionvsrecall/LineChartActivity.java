@@ -280,7 +280,7 @@ public class LineChartActivity extends ActionBarActivity {
                 Axis axisY = new Axis().setHasLines(true);
                 axisY.setValues(axisValuesForX);
                 if (hasAxesNames) {
-                    Axis.generateAxisFromRange(0,100,10);
+                    
                     axisX.setHasLines(true);
 
                     axisX.setName("Recall");
